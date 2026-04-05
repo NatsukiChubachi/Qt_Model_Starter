@@ -10,7 +10,7 @@ sequenceDiagram
 
     activate View
     note over View: 処理開始
-    View->>Model: getText()
+    View->>Model: Model.getText()
     deactivate View
     activate Model
 
